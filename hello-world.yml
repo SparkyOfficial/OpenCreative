@@ -1,0 +1,31 @@
+code:
+  blocks:
+    exec_block_36_4:
+      category: EVENT_PLAYER
+      type: PLAYER_JOIN
+      location:
+        x: 4
+        y: 1
+        z: 36
+      actions:
+        action_block2:
+          category: PLAYER_ACTION
+          type: PLAYER_SEND_MESSAGE
+          location:
+            x: 6
+          arguments:
+            messages:
+              type: LIST
+              value:
+                '1':
+                  type: TEXT
+                  value: §aHello World, %player%!
+            type:
+              type: TEXT
+              value: new-line
+owner: e7ba243a-9bef-3c0d-834c-1a3c3a909619
+name: §7Hello World by Wander
+description: §7My cool Module!
+icon: CHEST
+creation-time: 1755116020770
+planets: []
